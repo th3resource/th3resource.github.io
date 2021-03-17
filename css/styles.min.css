@@ -49,12 +49,10 @@ h6 {
 .btn {
     font-size: 20px;
     border: solid 2px;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 40px;
+    border-radius: 30px;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #ff7e33
+    background-color: #010047
 }
 
 .btn:hover,
@@ -103,7 +101,7 @@ h6 {
 }
 
 .btn-large {
-    padding: 15px 40px
+    padding: 15px 30px
 }
 
 .btn-margin-right {
@@ -137,7 +135,7 @@ section.blog {
 }
 
 a {
-    color: #dddddd;
+    color: #ffffff;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
