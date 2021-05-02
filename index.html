@@ -122,8 +122,17 @@
                             document.getElementById("demo").innerHTML = "EXPIRED";
                           }
                         }, 1000);
-                        </script>
-                        
+                    </script> 
+                    <p> For everyone who will not be able to join us live, please join our live stream!</p>
+                        <a class="btn btn-accent btn-large rsvp-btn" onclick="displayIframe()">Stream Now!</a>
+                        <p></p>
+                        <div id="iframeDisplay"></div>
+                    <script>
+                    function displayIframe() {
+                        document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://player.twitch.tv/?channel=moneil2021&parent=monicaneil.com&parent=www.monicaneil.com\" frameborder=\"0\" allowfullscreen=\"true\" scrolling=\"no\" height=\"720\" width=\"100%\"></iframe>";
+
+                        }
+                    </script>
                 </div>
             </div>
         </div>
